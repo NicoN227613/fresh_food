@@ -1,6 +1,9 @@
 :root {
     --font_nav: 'Roboto', sans-serif;
+    --color_font_nav: linear-gradient(219.53deg, lightgreen 1.55%, green 95.8%);
 }
+
+/* Barre de navigation */
 .nav {
     display: flex;
     align-items: center;
@@ -19,16 +22,23 @@
     font-size: 15px;
     line-height: 18px;
 }
+.nav__menu > li {
+    margin-left: 50px;
+}
+.nav__menu > li > a {
+    color: black;
+}
 .nav__menu > * + * {
     margin-left: 56px;
 }
+
+/* Burger */
 .nav__burger {
     display: none;
     margin-left: auto;
 }
 .nav__burger span {
     position: relative;
-    transition: transform .4s;
 }
 .nav__burger span,
 .nav__burger span::after,
@@ -36,27 +46,30 @@
     content: '';
     width: 20px;
     height: 2px;
-    margin: 6px 0;
+    margin: 5px 0;
+    border-radius: 4px;
     background-color: currentColor;
     display: block;
+    transition: transform .4s, background .2s;
 }
 .nav__burger span::after,
 .nav__burger span::before {
     position: absolue;
 }
 .nav__burger span::before {
-    transform-origin: 0 50%;
+    transform-origin: 15% 50%;
     top: -6px;
 }
 .nav__burger span::after {
-    transform-origin: 0 50%;
+    transform-origin: 15% 50%;
     bottom: -6px;
 }
 .nav__burger.is-active > span {
-    transform: rotate(45deg);
+    transform: rotate(90deg);
+    background: transparent;
 }
 .nav__burger.is-active > span::before {
-    transform: rotate(45deg);
+    transform: translateY(-2px) rotate(45deg);
 }
 .nav__burger.is-active > span::after {
     transform: rotate(-45deg);
@@ -72,7 +85,7 @@
     .nav__menu{
         display: flex;
         position: fixed;
-        background: rgba(#FFF, 0.8);
+        background: rgba(#FFF, 0.9);
         top: 0;
         right: 0;
         left: 0;
@@ -102,4 +115,4 @@
 }
 p {
     color: black
-}
+} 
