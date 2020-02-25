@@ -1,0 +1,105 @@
+:root {
+    --font_nav: 'Roboto', sans-serif;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.nav__logo {
+    width: 32px;
+    flex: none;
+}
+.nav__menu {
+    margin-left: auto;
+    display: flex;
+    font-family: var(--font_nav);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+}
+.nav__menu > * + * {
+    margin-left: 56px;
+}
+.nav__burger {
+    display: none;
+    margin-left: auto;
+}
+.nav__burger span {
+    position: relative;
+    transition: transform .4s;
+}
+.nav__burger span,
+.nav__burger span::after,
+.nav__burger span::before {
+    content: '';
+    width: 20px;
+    height: 2px;
+    margin: 6px 0;
+    background-color: currentColor;
+    display: block;
+}
+.nav__burger span::after,
+.nav__burger span::before {
+    position: absolue;
+}
+.nav__burger span::before {
+    transform-origin: 0 50%;
+    top: -6px;
+}
+.nav__burger span::after {
+    transform-origin: 0 50%;
+    bottom: -6px;
+}
+.nav__burger.is-active > span {
+    transform: rotate(45deg);
+}
+.nav__burger.is-active > span::before {
+    transform: rotate(45deg);
+}
+.nav__burger.is-active > span::after {
+    transform: rotate(-45deg);
+}
+
+@media only screen and (max-width: 768px) {
+    .nav__burger {
+        display: block;
+    }
+    .nav__logo {
+        display: none;
+    }
+    .nav__menu{
+        display: flex;
+        position: fixed;
+        background: rgba(#FFF, 0.8);
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity .3s;
+    }
+    .nav__menu > * {
+        transform: translateY(-10px);
+        transition: transform .5s;
+    }
+    .nav__menu.is-active {
+        pointer-events: auto;
+        display: flex;
+        animation: menuIn 1s;
+        opacity: 1;
+    }
+    .nav__menu > * + * {
+        margin-left: 0;
+        margin-top: 24px;
+    }
+}
+p {
+    color: black
+}
