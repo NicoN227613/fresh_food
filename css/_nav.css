@@ -9,8 +9,6 @@
     display: flex;
     align-items: center;
     margin-top: 50px;
-    margin-right: 81px;
-    margin-left: 91px;
 }
 .nav__logo {
     height: 32px;
@@ -18,7 +16,6 @@
     align-items: center;
 }
 .nav__menu {
-    margin-left: auto;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -27,6 +24,7 @@
     font-weight: normal;
     font-size: 15px;
     line-height: 18px;
+    margin-left: auto;
 }
 .nav__menu > li {
     margin-left: 50px;
@@ -52,9 +50,7 @@
     background: var(--color_btn_nav);
     box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
     border-radius: 100px;
-
 }
-
 @media only screen and (max-width: 1196px) {
     .nav__menu {
         white-space: nowrap;
@@ -107,9 +103,6 @@
     .nav__burger {
         display: block;
     }
-    .nav__logo {
-        display: none;
-    }
     .nav__menu{
         display: flex;
         position: fixed;
@@ -141,6 +134,3 @@
         margin-top: 24px;
     }
 }
-p {
-    color: black
-} 
