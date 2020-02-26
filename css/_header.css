@@ -1,0 +1,35 @@
+:root {
+    --color_header: linear-gradient(227.48deg,#32CD32 1.55%,  #008000 95.8%);
+    --font_header: 'Proxima Nova', sans-serif;
+    --color_font_header : #FFF7DF;
+}
+.header {
+    font-family: var(--font_header);
+    top: 107px;
+    padding-top: 120px;
+    padding-bottom: 40px;
+    background: var(--color_header);
+    color: var(--color_font_header);
+}
+.header__block {
+    margin-left: 183px;
+}
+.header__title {
+    font-size: 44px;
+    line-height: 70px;
+}
+.header__text {
+    font-size: 18px;
+    line-height: 33px;
+}
+.header__btn {
+    width: 160px;
+    height: 56px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #008000;
+    background: var(--color_font_header);
+    border-radius: 100px
+}

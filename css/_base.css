@@ -1,0 +1,10 @@
+:root {
+    --font: 'Proxima Nova', sans-serif;
+  }
+  
+  body {
+    font-size: 14px;
+    font-family: var(--font);
+    color: #FFFFFF;
+    line-height: 25px;
+  }
