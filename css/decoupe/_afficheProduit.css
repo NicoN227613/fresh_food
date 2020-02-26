@@ -1,0 +1,56 @@
+main{
+    padding: 3rem;
+}
+.search{
+    /*position: absolute;*/
+    width: 1188px;
+    height: 78px;
+    left: 156px;
+    top: 699px;
+    
+    /* 1 */
+    background: linear-gradient(192.56deg, #57D53B 1.55%,  #4CA66B 95.8%);
+
+    /* 3 */
+    box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+    border-radius: 10px;
+}
+
+.mini_menu, .afficheImage{
+    display : inline-block;
+}
+
+.mini_menu{
+    width: 19%;
+    vertical-align: top;
+
+}
+
+.afficheImage{
+    width: 60%;
+
+}
+
+.img_mini_menu{
+    width: 80%;
+    margin: auto;
+}
+
+div article{
+    display: inline-block;
+    margin: 1rem;
+    width: 25%;
+    height: 15rem ;
+    background-color: rgb(42, 112, 79);
+}
+
+article p{
+    height: 73px;
+    background-color: antiquewhite;
+}
+
+div > article > div{
+    /* teste, a supprimer après */
+    height: 167px;
+    width: 100%;
+}

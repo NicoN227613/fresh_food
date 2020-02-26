@@ -1,5 +1,7 @@
 /* Variables */
 @import "_nav.css";
+@import "decoupe/_afficheProduit.css";
+
 :root {
     --font: 'Proxima Nova', sans-serif;
 }
