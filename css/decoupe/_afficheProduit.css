@@ -3,7 +3,8 @@ main{
 }
 .search{
     /*position: absolute;*/
-    width: 1188px;
+    width: 80%;
+    margin: auto;
     height: 78px;
     left: 156px;
     top: 699px;
@@ -27,8 +28,13 @@ main{
 }
 
 .afficheImage{
-    width: 60%;
+    width: 80%;
 
+}
+.afficheImage_par_trois{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .img_mini_menu{
@@ -36,10 +42,15 @@ main{
     margin: auto;
 }
 
+.img_mini_menu_sous{
+    width: 80%;
+    margin: auto;
+}
+
 div article{
     display: inline-block;
-    margin: 1rem;
-    width: 25%;
+    margin: 0 0 1rem;
+    width: 30%;
     height: 15rem ;
     background-color: rgb(42, 112, 79);
 }
