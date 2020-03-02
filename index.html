@@ -5,32 +5,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/main.js" defer></script>
-    <title>Document</title>
+    <title>Fresh Food</title>
 </head>
 
 <body>
-    <header class="nav">
-        <a href="#" class="nav__logo">
-            <img src="img/logo.svg" alt="logo">
-        </a>
+    <nav class="nav">
+        <a href="#"><img src="img/logo.svg" class="nav__logo" alt="logo"></a>
         <ul class="nav__menu">
             <li><a href="#">Mes achats</a></li>
-            <li><a href="#">Nouveau produit</a></li>
+            <li><a href="#">Nouveau produit</a></li> 
             <li><a href="#">Mes produits</a></li>
             <li><a href="#">Mon stock</a></li>
-            <li><button>Nous contacter</button></li>
-            <li><button>Connexion</button></li>
+            <li><button class="nav__btn">Nous contacter</button></li>
+            <li><button class="nav__btn">Connexion</button></li>
         </ul>
         <button class="nav__burger">
             <span></span>
         </button>
+    </nav>
+    <header class="header">
+        <div class="header__block">
+            <h1 class="header__title">Bienvenue sur Fresh Food !</h1>
+            <p class="header__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis odio soluta animi quod corporis earum veritatis sunt provident, adipisci voluptate, asperiores, voluptates in consequatur autem. Voluptatem culpa quisquam facilis nobis.</p>
+            <button type="button" class="header__btn">C'est parti !</button>
+        </div>
     </header>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, voluptatibus. Accusantium quisquam placeat non dignissimos? Dolorem saepe accusantium cupiditate, deleniti sit ad eveniet? Voluptatum delectus aperiam eveniet laudantium vitae harum.
-    </p>
+    <main>
+        <div class="main">
+            
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__credit">
+            <div class="footer__title">Fresh Food</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam earum minima quod, maxime itaque quibusdam tenetur molestiae cupiditate. Illum ipsa architecto voluptatibus hic explicabo nemo magni soluta illo sapiente consequuntur.</p>
+        </div>
+        <div class="footer__social">
+            <a href="#" title="Nous suivre sur Facebook">
+                <svg class="icon">
+                    <use xlink:href="img/sprite.svg#facebook"></use>
+                </svg>
+            </a>
+            <a href="#" title="Nous suivre sur Twitter">
+                <svg class="icon">
+                    <use xlink:href="img/sprite.svg#twitter"></use>
+                </svg>
+            </a>
+            <a href="#" title="Nous suivre sur YouTube">
+                <svg class="icon">
+                    <use xlink:href="img/sprite.svg#youtube"></use>
+                </svg>
+            </a>
+        </div>
+        <div class="footer__col">
+            <ul>
+                <li><a href="#">Mes achats</a></li>
+                <li><a href="#">Nouveau produit</a></li>
+                <li><a href="#">Mes produits</a></li>
+                <li><a href="#">Mon stock</a></li>
+                <li><a href="#">Connexion</a></li>
+            </ul>
+        </div>
+        <div class="footer__col">
+            <div class="footer__title">Nous contactez</div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur et maiores modi amet accusamus aperiam temporibus nobis ipsa error fugit laboriosam, mollitia perspiciatis voluptatum quos. Enim ea cupiditate fugit culpa!</p>
+        </div>
+    </footer>
 </body>
 
 </html>
