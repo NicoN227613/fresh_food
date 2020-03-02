@@ -5,9 +5,9 @@
 }
 .header {
     font-family: var(--font_header);
-    top: 107px;
     padding-top: 120px;
     padding-bottom: 40px;
+    margin-top: 20px;
     background: var(--color_header);
     color: var(--color_font_header);
 }

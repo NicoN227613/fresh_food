@@ -4,6 +4,10 @@
     color: #FFFFFF;
     background: #212121;
 }
-.footer__credit {
-    width: 265px;
+.footer__social {
+    display: inline-flex;
+}
+.footer__social > a {
+    width: 21px;
+    height: 21px;
 }
