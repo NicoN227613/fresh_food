@@ -1,0 +1,50 @@
+.form2{
+    width:30%;
+    margin: 0 auto;
+    line-height: 80px;
+    margin-top: 150px;
+}
+
+body{
+    background-color: chartreuse;
+}
+
+#fullname{
+    border-radius: 100px;
+    border: 3px solid #EFEFEF;
+    background-color: #FFFFFF;
+    padding: 15px;
+    width:100%;
+}
+
+#mail{
+    border-radius: 100px;
+    border: 3px solid #EFEFEF;
+    background-color: #FFFFFF;
+    padding: 15px;
+    width:100%;
+}
+
+#adresse{
+    border-radius: 100px;
+    border: 3px solid #EFEFEF;
+    background-color: #FFFFFF;
+    padding: 15px;
+    width:100%;
+}
+
+#phone{
+    border-radius: 100px;
+    border: 3px solid #EFEFEF;
+    background-color: #FFFFFF;
+    padding: 15px;
+    width:100%;
+}
+
+#pass{
+    border-radius: 100px;
+    border: 3px solid #EFEFEF;
+    background-color: #FFFFFF;
+    padding: 15px;
+    width:100%;
+}
