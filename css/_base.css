@@ -8,3 +8,8 @@
     color: #FFFFFF;
     line-height: 25px;
   }
+  .container{
+    min-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
