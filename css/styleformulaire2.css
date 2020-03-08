@@ -1,25 +1,15 @@
-.form1{
+.form-group{
     width:30%;
     margin: 0 auto;
     line-height: 100px;
-    margin-top: 250px;
+    margin-top: 200px; 
 }
 
-
-body{
-    background-color: chartreuse;
+h3{
+    text-align: center;
 }
 
-#email{
-    border-radius: 100px;
-    border: 3px solid #EFEFEF;
-    background-color: #FFFFFF;
-    padding: 15px;
-    width:100%;
-    
-}
-
-#password{
+#mail1{
     border-radius: 100px;
     border: 3px solid #EFEFEF;
     background-color: #FFFFFF;
@@ -27,17 +17,15 @@ body{
     width:100%;
 }
 
-button{
+
+#button1{
     border-radius: 100px;
     border: 1px solid #EFEFEF;
     background-color: green;
     width:100%;
-    padding:20px;
-    
-   
+    padding:20px; 
 }
 
-.lien{
-    text-align: right;
+.lien2{
     margin-top: -10px;
 }

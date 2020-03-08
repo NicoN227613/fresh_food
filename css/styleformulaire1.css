@@ -33,6 +33,22 @@ body{
     width:100%;
 }
 
+#inputZip{
+    border-radius: 100px;
+    border: 3px solid #EFEFEF;
+    background-color: #FFFFFF;
+    padding: 15px;
+    width:50%;
+}
+
+#inputCity{
+    border-radius: 100px;
+    border: 3px solid #EFEFEF;
+    background-color: #FFFFFF;
+    padding: 15px;
+    width:50%;
+}
+
 #phone{
     border-radius: 100px;
     border: 3px solid #EFEFEF;
@@ -47,4 +63,18 @@ body{
     background-color: #FFFFFF;
     padding: 15px;
     width:100%;
+}
+
+button{
+    margin-top: 40px;
+}
+
+.form-row{
+    display: flex;
+}
+
+
+h6{
+    line-height: 1px;
+    text-align: right;
 }
