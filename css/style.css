@@ -1,4 +1,5 @@
 /* Variables */
+<<<<<<< HEAD
 @import "_base.css";
 @import "_reset.css";
 @import "styleformulaire.css";
@@ -10,3 +11,18 @@
 @import "_main.css";
 @import "_footer.css";
 @import "decoupe/_afficheProduit.css";
+=======
+@import "styleformulaire.css";
+@import "styleformulaire1.css";
+@import "styleformulaire2.css";
+@import "import/_base.css";
+@import "import/_reset.css";
+@import "import/_nav.css";
+@import "import/_header.css";
+@import "import/_form.css";
+@import "import/_main.css";
+@import "import/_footer.css";
+@import "import/_details.css";
+@import "import/_afficheProduit.css";
+
+>>>>>>> 688fb6274b94c26b27d2b65fca9b341c09c397c9
