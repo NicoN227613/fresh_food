@@ -4,6 +4,10 @@ body{
     color: #333;
 }
 
+main{
+    padding: 3rem 0 ;
+}
+
 img, table, video{
     max-width: 100%;
 }
@@ -94,7 +98,7 @@ div article img{
 }
 
 article p{
-    height: 12rem;
+    height: 9rem;
     background-color: #57D53B;;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -135,7 +139,7 @@ div > article > div{
 /*------------------ CSS TABLETTE  -------------------------*/
 @media screen and (min-width: 500px) {
 
-
+/*---------- affiche image ---------*/
     div article{
         display: inline-block;
         margin: 0 auto 1rem;
@@ -144,7 +148,11 @@ div > article > div{
     }
 
     .afficheImage article{
-        margin: auto;
+        margin: 1rem auto;
+    }
+
+    .afficheImage article:nth-child(2n){
+        float: right;
     }
 }
 
@@ -165,7 +173,8 @@ div > article > div{
     }
     
     .mini_menu{
-        width: 19%;
+        text-align: left;
+        width: 21%;
         vertical-align: top;
         font-size: 1.5rem;
         margin: 0;
@@ -175,8 +184,10 @@ div > article > div{
         margin: 1rem 0;
     }
     
+    /*---------- affiche image ---------*/
     .afficheImage{
-        width: 80%;
+        width: 78%;
+        padding: 1rem 0 1rem 1rem;
     }
 
     .afficheImage_par_trois{
@@ -196,37 +207,24 @@ div > article > div{
     }
     
     div article{
-        display: inline-block;
-        margin: 0 0 1rem;
-        width: 30%;
-        /*height: 15rem ;*/
-        /*background-color: rgb(42, 112, 79);*/
+        width: 32%;
         border-radius: 10px;
-        /*position: relative;*/
     }
-    
-    /*div article img{
-        /**margin: 0 0 -0.6rem;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        
+
+    .afficheImage article{
+        margin: 0 0.1rem 1rem ;
     }
-    
-    /*article p{
-        height: 90px;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        padding: 1.5rem;
-        /*margin: -0.6rem 0 0; white-space:nowrap; */
-        /*position: absolute;
-        bottom : -5rem;
-        width: 100%;*/
-        
-   /* }*/
+
+    .afficheImage article:nth-child(2n){
+        float: none;
+    }
+
+    /*.afficheImage article:nth-child(3n){
+        float: right;
+        margin: none;
+    }*/
     
     div > article > div{
-        /* teste, a supprimer après */
-        /*height: 167px;*/
         width: 100%;
     }
 
@@ -242,9 +240,6 @@ div > article > div{
     .img_mini_menu_sous_pagination ul li{
         margin: 1rem;
     }
-    
-
-
 }
 
 
