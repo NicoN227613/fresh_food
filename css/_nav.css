@@ -1,7 +1,7 @@
 :root {
     --font_nav: 'Roboto', sans-serif;
     --color_a_nav: #000000;
-    --color_btn_nav: linear-gradient(227.48deg,#00FF00 1.55%,  #008000 95.8%);
+    --color_btn_nav: #7BED8D;
 }
 
 /* Barre de navigation */
