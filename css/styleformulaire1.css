@@ -1,28 +1,28 @@
-.form2{
-    width:30%;
+.form__signUp{
+    width: 30%;
     margin: 0 auto;
     line-height: 80px;
     margin-top: 150px;
 }
 
 body{
-    background-color: chartreuse;
+    background-color: #FFF7DF;
 }
 
 #fullname{
-    border-radius: 100px;
-    border: 3px solid #EFEFEF;
-    background-color: #FFFFFF;
-    padding: 15px;
     width:100%;
+    padding: 15px;
+    background-color: #FFFFFF;
+    border: 3px solid #EFEFEF;
+    border-radius: 100px;
 }
 
 #mail{
-    border-radius: 100px;
-    border: 3px solid #EFEFEF;
-    background-color: #FFFFFF;
-    padding: 15px;
     width:100%;
+    padding: 15px;
+    background-color: #FFFFFF;
+    border: 3px solid #EFEFEF; 
+    border-radius: 100px;   
 }
 
 #adresse{
@@ -65,7 +65,7 @@ body{
     width:100%;
 }
 
-button{
+.connect{
     margin-top: 40px;
 }
 
