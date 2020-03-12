@@ -2,13 +2,13 @@
 @import "styleformulaire.css";
 @import "styleformulaire1.css";
 @import "styleformulaire2.css";
-@import "_base.css";
-@import "_reset.css";
-@import "_nav.css";
-@import "_header.css";
-@import "_form.css";
-@import "_main.css";
-@import "_footer.css";
+@import "import/_base.css";
+@import "import/_reset.css";
+@import "import/_nav.css";
+@import "import/_header.css";
+@import "import/_form.css";
+@import "import/_main.css";
+@import "import/_footer.css";
 @import "import/_details.css";
 @import "import/_afficheProduit.css";
 
