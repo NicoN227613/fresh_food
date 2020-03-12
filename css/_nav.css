@@ -1,17 +1,19 @@
 :root {
     --font_nav: 'Roboto', sans-serif;
     --color_a_nav: #000000;
-    --color_btn_nav: linear-gradient(227.48deg,#00FF00 1.55%,  #008000 95.8%);
+    --color_btn_nav: #7BED8D;
 }
 
 /* Barre de navigation */
 .nav {
     display: flex;
     align-items: center;
+    padding-right: 35px;
+    padding-left: 35px;
     margin-top: 50px;
 }
 .nav__logo {
-    height: 32px;
+    height: 64px;
     display: flex;
     align-items: center;
 }
@@ -26,18 +28,15 @@
     line-height: 18px;
     margin-left: auto;
 }
-.nav__menu > li {
-    margin-left: 50px;
-}
 .nav__menu > li > a {
     background: var(--color_a_nav);
     background-clip: content-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.nav__menu > * + * {
+/*.nav__menu > * + * {
     margin-left: 56px;
-}
+}*/
 .nav__btn {
     width: 160px;
     height: 56px;
@@ -71,7 +70,6 @@
     width: 20px;
     height: 2px;
     margin: 5px 0;
-    border-radius: 4px;
     background-color: currentColor;
     display: block;
     transition: transform .4s, background .2s;
@@ -100,13 +98,16 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .nav__logo {
+        height: 32px;
+    }
     .nav__burger {
         display: block;
     }
     .nav__menu{
         display: flex;
         position: fixed;
-        background: rgba(#FFF, 0.9);
+        background: rgba(#FFF, .9);
         top: 0;
         right: 0;
         left: 0;
@@ -126,7 +127,6 @@
     .nav__menu.is-active {
         pointer-events: auto;
         display: flex;
-        animation: menuIn 1s;
         opacity: 1;
     }
     .nav__menu > * + * {

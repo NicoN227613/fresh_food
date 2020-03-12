@@ -1,5 +1,5 @@
 :root {
-    --color_header: linear-gradient(227.48deg,#32CD32 1.55%,  #008000 95.8%);
+    --color_header: #7BED8D;
     --font_header: 'Proxima Nova', sans-serif;
     --color_font_header : #FFF7DF;
 }
