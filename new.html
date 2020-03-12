@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ajouter un produit</title>
+</head>
+
+<body>
+    <form class="form" action="">
+        <label class="form__label" for="category">Catégorie</label>
+        <div class="form__group">
+            <select class="form__control" id="category" name="category">
+                <option>Aucune</option>
+                <option>Fruits</option>
+                <option>Légumes</option>
+                <option>Viandes</option>
+                <option>Poissons</option>
+                <option>Fruits de mer et crustacés</option>
+                <option>Pain et céréales</option>
+                <option>Céréales et fécuents</option>
+                <option>Produits laitiers</option>
+                <option>Désserts et sucré</option>
+                <option>Plats préparés et snacks</option>
+                <option>Condiments et épices</option>
+                <option>Boissons</option>
+            </select>
+        </div>
+        <label class="form__label" for="name">Intitulé</label>
+        <div class="form__group">
+            <input type="text" class="form__control" id="name" name="name">
+        </div>
+        <label class="form__label" for="place">Emplacement</label>
+        <div class="form__group">
+            <select class="form__control" id="place" name="place">
+                <option>Réfrigirateur</option>
+                <option>Congélateur</option>
+                <option>Garde-manger</option>
+                <option>Comptoir</option>
+                <option>Placard</option>
+                <option>Cave</option>
+            </select>
+        </div>
+        <label class="form__label" for="quantity">Quantité</label>
+        <div class="form__group">
+            <input type="number" class="form__control" name="quantity" id="quantity">
+        </div>
+        <label class="form__label" for="unity">Unité</label>
+        <div class="form__group">
+            <select class="form__control" id="unity" name="unity">
+                <option>Pas d'unité</option>
+                <option>morceau(x)</option>
+                <option>paquet(s)</option>
+                <option>boîte(s)</option>
+                <option>sachet(s)</option>
+                <option>g</option>
+                <option>Kg</option>
+                <option>bouteille(s)</option>
+                <option>canette(s)</option>
+                <option>L</option>
+                <option>mL</option>
+            </select>
+        </div>
+        <label class="form__label" for="purchase_date">Date d'achat</label>
+        <div class="form__group">
+            <input type="datetime-local" class="form__control" name="purchase_date" id="purchase_date">
+        </div>
+        <div class="form__label__switch">
+            <label class="form__label" for="dlc">DLC : Date Limite de Consommation</label>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <div class="form__group">
+            <input type="datetime-local" class="form__control" name="purchase_date" id="purchase_date">
+        </div>
+        <div class="form__label__switch">
+            <label class="form__label" for="dlc">DDM : Date à Durée Minimale</label>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <div class="form__group">
+            <input type="datetime-local" class="form__control" name="purchase_date" id="purchase_date">
+        </div>
+        <div>
+            <button type="submit" class="form__btn btn">
+                <svg class="svg__arrow">
+                    <use xlink:href="img/sprite.svg#arrow_circle_right"></use>
+                </svg>
+                Enregistrer mon produit
+            </button>
+            
+        </div>
+    </form>
+</body>
+
+</html>
