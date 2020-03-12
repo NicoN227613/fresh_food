@@ -6,7 +6,9 @@
 @import "_reset.css";
 @import "_nav.css";
 @import "_header.css";
+@import "_form.css";
 @import "_main.css";
 @import "_footer.css";
+@import "_details.css";
 @import "import/_afficheProduit.css";
 
