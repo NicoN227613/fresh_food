@@ -1,15 +1,33 @@
+/*/////////////// CSS PAR DEFAUT ////////////////////*/
+
 :root {
-    --font: 'Proxima Nova', sans-serif;
-  }
-  
-  body {
-    font-size: 14px;
-    font-family: var(--font);
-    color: #FFFFFF;
-    line-height: 25px;
-  }
-  .container{
-    min-width: 1500px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  --font: 'Proxima Nova', sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+  outline: none;
+}
+
+html, body{
+  height: 100%;
+}
+
+body {
+  font-size: 14px;
+  font-family: var(--font);
+  color: #FFFFFF;
+  line-height: 25px;
+}
+
+img, table, video{
+  max-width: 100%;
+}
+
+img, table, video{
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
