@@ -17,6 +17,7 @@ body {
   font-size: 14px;
   font-family: var(--font);
   color: #FFFFFF;
+  background-color: rgb(251, 251, 251);
   line-height: 25px;
 }
 
@@ -31,3 +32,6 @@ img, table, video{
 a{
   text-decoration: none;
 }
+
+
+/*------  Mettre les couleur de base en bas --------*/
