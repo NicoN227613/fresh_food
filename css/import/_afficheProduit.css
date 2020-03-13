@@ -1,17 +1,17 @@
 /*------------------ CSS MOBILE  -------------------------*/
 
-body{
+/*body{
     color: #333;
     background-color: rgb(251, 251, 251);;
-}
+}*/
 
 main{
     padding: 3rem 0 ;
 }
 
-img, table, video{
+/*img, table, video{
     max-width: 100%;
-}
+}*/
 
 /*---------- INPUT SEARCH---------*/
 .search{
@@ -44,10 +44,11 @@ img, table, video{
 
 
 /*---------- IMAGE---------*/
+/*
 img{
     width: 100%;
 }
-
+*/
 /*---------- mini_menu---------*/
 .img_mini_menu_sous{
     margin: 1rem 0;
