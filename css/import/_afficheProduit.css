@@ -1,38 +1,40 @@
 /*------------------ CSS MOBILE  -------------------------*/
 
-body{
+body {
     color: #333;
-    background-color: rgb(251, 251, 251);;
+    /*background-color: rgb(251, 251, 251);*/
 }
 
-main{
-    padding: 3rem 0 ;
+main {
+    padding: 3rem 0;
 }
 
-img, table, video{
+img,
+table,
+video {
     max-width: 100%;
 }
 
 /*---------- INPUT SEARCH---------*/
-.search{
+.search {
     width: 100%;
     margin: auto;
     height: 78px;
     left: 156px;
     top: 699px;
-    background: linear-gradient(192.56deg, #57D53B 1.55%,  #4CA66B 95.8%);
+    background: linear-gradient(192.56deg, #57D53B 1.55%, #4CA66B 95.8%);
     box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
     border-radius: 10px;
     padding: 1.5rem;
 }
 
-.search p{
+.search p {
     color: white;
     border-bottom: solid 0.1rem white;
 }
 
-.search_input{
-    background: linear-gradient(192.56deg, #57D53B 1.55%,  #4CA66B 95.8%);
+.search_input {
+    background: linear-gradient(192.56deg, #57D53B 1.55%, #4CA66B 95.8%);
     width: 96%;
     border: none;
 }
@@ -44,58 +46,59 @@ img, table, video{
 
 
 /*---------- IMAGE---------*/
-img{
+img {
     width: 100%;
 }
 
 /*---------- mini_menu---------*/
-.img_mini_menu_sous{
+.img_mini_menu_sous {
     margin: 1rem 0;
 }
 
-.mini_menu{
+.mini_menu {
     text-align: center;
-    display : flex;
+    display: flex;
     flex-direction: column;
     font-size: 2.5rem;
-    margin: 1.5rem ;
+    margin: 1.5rem;
     color: #111;
     text-decoration: none;
 }
 
 .mini_menu li {
-    margin: 1.5rem ;
+    margin: 1.5rem;
 }
 
 
 /*---------- affiche image ---------*/
 
-.afficheImage{
+.afficheImage {
     padding: 1rem;
 }
 
-div article{
+div article {
     margin: 0 0 1rem;
     width: 100%;
     border-radius: 10px;
 }
 
-div article img{
+div article img {
     margin: 0 0 -0.6rem;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    
+
 }
 
-article p{
+article p {
     height: 9rem;
-    background-color: #57D53B;;
+    background-color: #57D53B;
+    ;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 1.5rem;
 }
 
-div > article > div{
+div>article>div {
     width: 100%;
 }
 
@@ -103,21 +106,21 @@ div > article > div{
 /*---------- PAGINATION---------*/
 
 
-.img_mini_menu_sous_pagination ul{
+.img_mini_menu_sous_pagination ul {
     color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.img_mini_menu_sous_pagination ul li{
+.img_mini_menu_sous_pagination ul li {
     border: solid 0.1rem black;
     border-radius: 100px;
     padding: 1rem;
 
 }
 
-#pagination_active{
+#pagination_active {
     background-color: #57D53B;
 }
 
@@ -125,19 +128,19 @@ div > article > div{
 /*------------------ CSS TABLETTE  -------------------------*/
 @media screen and (min-width: 500px) {
 
-/*---------- affiche image ---------*/
-    div article{
+    /*---------- affiche image ---------*/
+    div article {
         display: inline-block;
         margin: 0 auto 1rem;
         width: 45%;
         border-radius: 10px;
     }
 
-    .afficheImage article{
+    .afficheImage article {
         margin: 1rem auto;
     }
 
-    .afficheImage article:nth-child(2n){
+    .afficheImage article:nth-child(2n) {
         float: right;
     }
 }
@@ -145,80 +148,79 @@ div > article > div{
 /*------------------ CSS DESKTOP  -------------------------*/
 @media screen and (min-width: 1024px) {
 
-    main{
+    main {
         padding: 3rem;
     }
 
     /*---------- INPUT SEARCH---------*/
-    .search{
+    .search {
         width: 80%;
     }
 
-    .mini_menu, .afficheImage{
-        display : inline-block;
+    .mini_menu,
+    .afficheImage {
+        display: inline-block;
     }
-    
-    .mini_menu{
+
+    .mini_menu {
         text-align: left;
         width: 21%;
         vertical-align: top;
         font-size: 1.5rem;
         margin: 0;
     }
-    
+
     .mini_menu p {
         margin: 1rem 0;
     }
-    
+
     /*---------- affiche image ---------*/
-    .afficheImage{
+    .afficheImage {
         width: 78%;
         padding: 1rem 0 1rem 1rem;
     }
 
-    .afficheImage_par_trois{
+    .afficheImage_par_trois {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
-    
-    .img_mini_menu{
+
+    .img_mini_menu {
         width: 80%;
         margin: auto;
     }
-    
-    .img_mini_menu_sous{
+
+    .img_mini_menu_sous {
         width: 80%;
         margin: 2rem auto;
     }
-    
-    div article{
+
+    div article {
         width: 32%;
         border-radius: 10px;
     }
 
-    .afficheImage article{
-        margin: 0 0.1rem 1rem ;
+    .afficheImage article {
+        margin: 0 0.1rem 1rem;
     }
 
-    .afficheImage article:nth-child(2n){
+    .afficheImage article:nth-child(2n) {
         float: none;
     }
-    
-    div > article > div{
+
+    div>article>div {
         width: 100%;
     }
 
     /*---------- PAGINATION---------*/
 
 
-    .img_mini_menu_sous_pagination ul{
+    .img_mini_menu_sous_pagination ul {
         justify-content: flex-start;
     }
 
-    .img_mini_menu_sous_pagination ul li{
+    .img_mini_menu_sous_pagination ul li {
         margin: 1rem;
     }
 }
-
-

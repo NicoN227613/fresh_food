@@ -11,8 +11,12 @@
 
 <body>
     <form class="form" action="">
-        <label class="form__label" for="category">Catégorie</label>
-        <div class="form__group"> 
+
+        <div class="form__group">
+            <label class="form__label" for="category">Catégorie</label>
+                <svg class="svg__arrow__bottom">
+                    <use xlink:href="img/sprite.svg#arrow_bottom"></use>
+                </svg>
             <select class="form__control" id="category" name="category">
                 <option>Aucune</option>
                 <option>Fruits</option>
@@ -29,14 +33,17 @@
                 <option>Boissons</option>
             </select>
         </div>
-        
+
         <div class="form__group">
             <label class="form__label" for="name">Intitulé</label>
             <input type="text" class="form__control" id="name" name="name">
-            
         </div>
-        <label class="form__label" for="place">Emplacement</label>
+
         <div class="form__group">
+            <label class="form__label" for="place">Emplacement</label>
+            <svg class="svg__arrow__bottom">
+                <use xlink:href="img/sprite.svg#arrow_bottom"></use>
+            </svg>
             <select class="form__control" id="place" name="place">
                 <option>Réfrigirateur</option>
                 <option>Congélateur</option>
@@ -46,12 +53,17 @@
                 <option>Cave</option>
             </select>
         </div>
-        <label class="form__label" for="quantity">Quantité</label>
-        <div class="form__group">
+
+        <div class="form__group"> 
+            <label class="form__label" for="quantity">Quantité</label>
             <input type="number" class="form__control" name="quantity" id="quantity">
         </div>
-        <label class="form__label" for="unity">Unité</label>
+        
         <div class="form__group">
+            <label class="form__label" for="unity">Unité</label>
+            <svg class="svg__arrow__bottom">
+                <use xlink:href="img/sprite.svg#arrow_bottom"></use>
+            </svg>
             <select class="form__control" id="unity" name="unity">
                 <option>Pas d'unité</option>
                 <option>morceau(x)</option>
@@ -66,10 +78,12 @@
                 <option>mL</option>
             </select>
         </div>
-        <label class="form__label" for="purchase_date">Date d'achat</label>
-        <div class="form__group">
+
+        <div class="form__group"> 
+            <label class="form__label" for="purchase_date">Date d'achat</label>
             <input type="datetime-local" class="form__control" name="purchase_date" id="purchase_date">
         </div>
+
         <div class="form__label__switch">
             <label class="form__label" for="dlc">DLC : Date Limite de Consommation</label>
             <label class="switch">
@@ -77,6 +91,7 @@
                 <span class="slider"></span>
             </label>
         </div>
+
         <div class="form__group">
             <input type="datetime-local" class="form__control" name="purchase_date" id="purchase_date">
         </div>
@@ -90,15 +105,12 @@
         <div class="form__group">
             <input type="datetime-local" class="form__control" name="purchase_date" id="purchase_date">
         </div>
-        <div>
             <button type="submit" class="form__btn btn">
                 <svg class="svg__arrow">
                     <use xlink:href="img/sprite.svg#arrow_circle_right"></use>
                 </svg>
                 Enregistrer mon produit
             </button>
-            
-        </div>
     </form>
 </body>
 

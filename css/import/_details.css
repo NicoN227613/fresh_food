@@ -1,36 +1,16 @@
-* {
-    box-sizing: border-box;
-
-}
-
 body {
     width: 100%;
-    margin: 10em auto;
+    /*margin: 10em auto;*/
 
 }
-
-
-
-
-
-
-
-
-
 img {
-
     max-width: 100%;
 }
-
-
-
 .box_left {
 
     width: 50%;
     display: inline-block;
 }
-
-
 .haut {
     width: 40%;
     margin: auto;
@@ -39,19 +19,11 @@ img {
     font-size: 1.5em;
     border: solid 1px black;
     position: relative;
-
 }
-
-
-
-
 .box_right {
-
-    
     width: 45%;
     display: inline-block;
     position: absolute;
-
 }
 
 
@@ -84,7 +56,7 @@ ul {
 
 }
 
-li{
+li {
 
     text-decoration: none;
 }
@@ -92,94 +64,76 @@ li{
 
 
 
-@media(min-width: 768px) and (max-width: 1388px)
+@media(min-width: 768px) and (max-width: 1388px) {
 
-{
 
- 
 
-.haut
+    .haut {
 
-{
+        width: 40%;
 
-            width :40% ;
+        padding: 0px;
 
-            padding :0px ;
+    }
 
-}
 
- 
 
-.right
+    .right {
 
-{
+        width: 20%;
 
-            width :20% ;           
+    }
 
-}
 
- 
 
-#contenu
+    #contenu {
 
-{
+        width: 80%;
 
-            width :80% ;
+    }
+
+
 
 }
 
- 
+@media(max-width: 767px) {
 
-}
 
-@media(max-width: 767px)
 
-{ 
+    .haut {
 
- 
+        width: 40%;
 
-.haut
+        padding: 0px;
 
-{
+    }
 
-            width :40% ;
 
-            padding :0px ;
 
-}
+    #menu-gauche {
 
- 
+        width: 100%;
 
-#menu-gauche
+    }
 
-{
 
-            width :100% ;
 
-}
+    #contenu {
 
- 
+        width: 100%;
 
-#contenu
+    }
 
-{
 
-            width :100% ;
 
-}
+    #sidebar-droite {
 
- 
+        width: 100%;
 
-#sidebar-droite
+    }
 
-{
 
-            width :100% ;
 
-}
 
- 
-
- 
 
 }
