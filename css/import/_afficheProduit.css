@@ -5,7 +5,7 @@
     background-color: rgb(251, 251, 251);;
 }*/
 
-main{
+.main_affichage_produit{
     padding: 3rem 0 ;
 }
 
@@ -75,20 +75,22 @@ img{
     padding: 1rem;
 }
 
-div article{
+/*div article*/
+.afficheImage_article{
     margin: 0 0 1rem;
     width: 100%;
     border-radius: 10px;
 }
 
-div article img{
+/*div article*/ 
+.afficheImage_article img{
     margin: 0 0 -0.6rem;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    
 }
 
-article p{
+/*article p*/
+.afficheImage_article p{
     height: 9rem;
     background-color: #57D53B;;
     border-bottom-left-radius: 10px;
@@ -96,7 +98,8 @@ article p{
     padding: 1.5rem;
 }
 
-div > article > div{
+/*div > article > div*/
+.afficheImage_article > div{
     width: 100%;
 }
 
@@ -127,18 +130,22 @@ div > article > div{
 @media screen and (min-width: 500px) {
 
 /*---------- affiche image ---------*/
-    div article{
+    /*div article*/
+    .afficheImage_article {
         display: inline-block;
         margin: 0 auto 1rem;
         width: 45%;
         border-radius: 10px;
-    }
-
-    .afficheImage article{
         margin: 1rem auto;
     }
 
-    .afficheImage article:nth-child(2n){
+    /*.afficheImage article*/
+    /*.afficheImage_article {
+        margin: 1rem auto;
+    }*/
+
+    /*.afficheImage article:nth-child(2n)*/
+    .afficheImage_article:nth-child(2n) {
         float: right;
     }
 }
@@ -146,7 +153,8 @@ div > article > div{
 /*------------------ CSS DESKTOP  -------------------------*/
 @media screen and (min-width: 1024px) {
 
-    main{
+    /*main*/
+    .main_affichage_produit{
         padding: 3rem;
     }
 
@@ -177,11 +185,11 @@ div > article > div{
         padding: 1rem 0 1rem 1rem;
     }
 
-    .afficheImage_par_trois{
+    /*.afficheImage_par_trois{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-    }
+    }*/
     
     .img_mini_menu{
         width: 80%;
@@ -193,20 +201,25 @@ div > article > div{
         margin: 2rem auto;
     }
     
-    div article{
+    /*div article*/
+    .afficheImage_article{
         width: 32%;
         border-radius: 10px;
-    }
-
-    .afficheImage article{
         margin: 0 0.1rem 1rem ;
     }
 
-    .afficheImage article:nth-child(2n){
+    /*.afficheImage article*/
+    /*.afficheImage_article {
+        margin: 0 0.1rem 1rem ;
+    }*/
+
+    /*.afficheImage article:nth-child(2n)*/
+    .afficheImage_article:nth-child(2n) {
         float: none;
     }
     
-    div > article > div{
+    /*div > article > div*/
+    .afficheImage_article > div{
         width: 100%;
     }
 
