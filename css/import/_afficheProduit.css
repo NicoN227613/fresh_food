@@ -1,17 +1,8 @@
 /*------------------ CSS MOBILE  -------------------------*/
 
-/*body{
-    color: #333;
-    background-color: rgb(251, 251, 251);;
-}*/
-
 .main_affichage_produit{
     padding: 3rem 0 ;
 }
-
-/*img, table, video{
-    max-width: 100%;
-}*/
 
 /*---------- INPUT SEARCH---------*/
 .search{
@@ -42,13 +33,6 @@
     font-size: 1.2rem;
 }
 
-
-/*---------- IMAGE---------*/
-/*
-img{
-    width: 100%;
-}
-*/
 /*---------- mini_menu---------*/
 .img_mini_menu_sous{
     margin: 1rem 0;
@@ -68,28 +52,24 @@ img{
     margin: 1.5rem ;
 }
 
-
 /*---------- affiche image ---------*/
 
 .afficheImage{
     padding: 1rem;
 }
 
-/*div article*/
 .afficheImage_article{
     margin: 0 0 1rem;
     width: 100%;
     border-radius: 10px;
 }
 
-/*div article*/ 
 .afficheImage_article img{
     margin: 0 0 -0.6rem;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
-/*article p*/
 .afficheImage_article p{
     height: 9rem;
     background-color: #57D53B;;
@@ -98,7 +78,6 @@ img{
     padding: 1.5rem;
 }
 
-/*div > article > div*/
 .afficheImage_article > div{
     width: 100%;
 }
@@ -118,19 +97,17 @@ img{
     border: solid 0.1rem black;
     border-radius: 100px;
     padding: 1rem;
-
 }
 
 #pagination_active{
     background-color: #57D53B;
 }
 
-
 /*------------------ CSS TABLETTE  -------------------------*/
 @media screen and (min-width: 500px) {
 
 /*---------- affiche image ---------*/
-    /*div article*/
+
     .afficheImage_article {
         display: inline-block;
         margin: 0 auto 1rem;
@@ -139,12 +116,6 @@ img{
         margin: 1rem auto;
     }
 
-    /*.afficheImage article*/
-    /*.afficheImage_article {
-        margin: 1rem auto;
-    }*/
-
-    /*.afficheImage article:nth-child(2n)*/
     .afficheImage_article:nth-child(2n) {
         float: right;
     }
@@ -153,7 +124,6 @@ img{
 /*------------------ CSS DESKTOP  -------------------------*/
 @media screen and (min-width: 1024px) {
 
-    /*main*/
     .main_affichage_produit{
         padding: 3rem;
     }
@@ -184,12 +154,6 @@ img{
         width: 78%;
         padding: 1rem 0 1rem 1rem;
     }
-
-    /*.afficheImage_par_trois{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }*/
     
     .img_mini_menu{
         width: 80%;
@@ -201,24 +165,16 @@ img{
         margin: 2rem auto;
     }
     
-    /*div article*/
     .afficheImage_article{
         width: 32%;
         border-radius: 10px;
         margin: 0 0.1rem 1rem ;
     }
 
-    /*.afficheImage article*/
-    /*.afficheImage_article {
-        margin: 0 0.1rem 1rem ;
-    }*/
-
-    /*.afficheImage article:nth-child(2n)*/
     .afficheImage_article:nth-child(2n) {
         float: none;
     }
     
-    /*div > article > div*/
     .afficheImage_article > div{
         width: 100%;
     }
