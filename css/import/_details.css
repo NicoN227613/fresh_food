@@ -1,12 +1,20 @@
-* {
+
+/* 
+                                    CSS mobile par défaut
+
+            revoit ton indentation
+ */
+
+
+/* * {
     box-sizing: border-box;
 
-}
+}                           a supprimer c'est déja dans _reset.css ligne 1
+*/
 
-body {
-    width: 100%;
+.body_détails {
+    /*width: 100%;          a supprimer c'est déja dans _base.css ligne 11 */
     margin: 10em auto;
-
 }
 
 
@@ -16,12 +24,13 @@ body {
 
 
 
-
+/*
 img {
 
     max-width: 100%;
 }
-
+                            a supprimer c'est déja dans _base.css ligne 24
+*/
 
 
 .box_left {
@@ -43,7 +52,7 @@ img {
 }
 
 
-
+/*     indentation   */
 
 .box_right {
 
@@ -75,6 +84,8 @@ img {
 
 }
 
+/* faire des classes pour les td, ul, li  */
+
 td {
     border: solid 1px black;
 }
@@ -91,7 +102,12 @@ li{
 
 
 
+/* c'est pour la tablette ou Desktop == ordi ?
 
+@media screen and (min-width: 1024px) {}
+
+ont utilise pas le max-width
+*/
 @media(min-width: 768px) and (max-width: 1388px)
 
 {
@@ -132,11 +148,12 @@ li{
 
 }
 
+/* c'est pour le mobile ? */
 @media(max-width: 767px)
 
 { 
 
- 
+ /* indentation */
 
 .haut
 
@@ -148,7 +165,15 @@ li{
 
 }
 
- 
+ /*
+ technique : si plusieur sélècteur ont les même valeurs et propriétés tu peut faire ça
+ çà économise des lignes
+
+#menu-gauche, #contenu, #sidebar-droite{
+     width :100% ;
+ }
+
+ */
 
 #menu-gauche
 
