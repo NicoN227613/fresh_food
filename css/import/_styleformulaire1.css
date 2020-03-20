@@ -1,0 +1,89 @@
+.form__signUp {
+    width: 30%;
+    margin: 0 auto;
+    line-height: 80px;
+    margin-top: 150px;
+}
+
+.body__signup {
+    background-color: #FFF7DF;
+}
+
+.fresh_signupp {
+    color: black;
+}
+
+#fullname__signup {
+    width: 100%;
+    padding: 15px;
+    background-color: #FFFFFF;
+    border: 3px solid #EFEFEF;
+    border-radius: 100px;
+}
+
+#mail__signup {
+    width: 100%;
+    padding: 15px;
+    background-color: #FFFFFF;
+    border: 3px solid #EFEFEF;
+    border-radius: 100px;
+}
+
+#adresse__signup {
+    border-radius: 100px;
+    border: 3px solid #EFEFEF;
+    background-color: #FFFFFF;
+    padding: 15px;
+    width: 100%;
+}
+
+#inputZip {
+    border-radius: 100px;
+    border: 3px solid #EFEFEF;
+    background-color: #FFFFFF;
+    padding: 15px;
+    width: 50%;
+}
+
+#inputCity {
+    border-radius: 100px;
+    border: 3px solid #EFEFEF;
+    background-color: #FFFFFF;
+    padding: 15px;
+    width: 50%;
+}
+
+#phone__signup {
+    border-radius: 100px;
+    border: 3px solid #EFEFEF;
+    background-color: #FFFFFF;
+    padding: 15px;
+    width: 100%;
+}
+
+#pass__signup {
+    border-radius: 100px;
+    border: 3px solid #EFEFEF;
+    background-color: #FFFFFF;
+    padding: 15px;
+    width: 100%;
+}
+
+#but_signup {
+    margin-top: 40px;
+    border-radius: 100px;
+    border: 1px solid #EFEFEF;
+    background-color: green;
+    width: 100%;
+    padding: 20px;
+}
+
+.form-row {
+    display: flex;
+}
+
+.signn__up {
+    line-height: 1px;
+    text-align: right;
+    color: black;
+}

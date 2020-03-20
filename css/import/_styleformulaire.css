@@ -1,0 +1,44 @@
+.form__signIn {
+    width: 30%;
+    margin: 0 auto;
+    line-height: 100px;
+    margin-top: 250px;
+}
+
+.body__signin {
+    background-color: #FFF7DF;
+}
+
+#email__signin {
+    width: 100%;
+    padding: 15px;
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    border: 3px solid #EFEFEF;
+}
+
+#password__signin {
+    width: 100%;
+    padding: 15px;
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    border: 3px solid #EFEFEF;
+}
+
+.butt__signin {
+    width: 100%;
+    padding: 20px;
+    background-color: green;
+    border-radius: 100px;
+    border: 1px solid #EFEFEF;
+}
+
+.lien__signin {
+    text-align: right;
+    margin-top: -60px;
+	color: black;
+}
+
+.fresh_signinnn{
+	color: black;
+	}
