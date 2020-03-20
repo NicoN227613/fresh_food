@@ -1,7 +1,7 @@
 /* Variables */
-@import "styleformulaire.css";
-@import "styleformulaire1.css";
-@import "styleformulaire2.css";
+@import "import/_styleformulaire.css";
+@import "import/_styleformulaire1.css";
+@import "import/_styleformulaire2.css";
 @import "import/_base.css";
 @import "import/_reset.css";
 @import "import/_nav.css";
