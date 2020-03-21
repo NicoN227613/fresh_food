@@ -7,20 +7,23 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Formulairesignup</title>
 </head>
-<body>
+<body class="body__signup">
+ <svg class="icon">
+	<use xlink:href="img/sprite.svg#logo"></use>
+	</svg>
     <form class="form__signUp"> 
-        <h3>FRESH FOOD</h3>
+        <h3 class="fresh_signupp">FRESH FOOD</h3>
         <div class="thename">
             <label for="name"></label>
-            <input type="text"  id="fullname" placeholder="Nom complet">
+            <input type="text"  id="fullname__signup" placeholder="Nom complet">
         </div>
         <div class="mail">
             <label for="email"></label>
-            <input type="email" name="email" id="mail"  placeholder="Enter email">
+            <input type="email" name="email" id="mail__signup"  placeholder="Enter email">
         </div>
         <div class="myadress">
             <label for="address"></label>
-            <input type="address" name="address" id="adresse" placeholder="Numéro et nom de la Rue">   
+            <input type="address" name="address" id="adresse__signup" placeholder="Numéro et nom de la Rue">   
         </div>
         <div class="form-row">
             <label for="inputZip"></label>
@@ -30,15 +33,15 @@
         </div>
         <div class="mynumber">
             <label for="phone"></label>
-            <input type="tel" name="telNo" id="phone" placeholder="Entrer numéro de télephone">
+            <input type="tel" name="telNo" id="phone__signup" placeholder="Entrer numéro de télephone">
         </div>
         <div class="pass">
             <label for="password"></label>
-            <input type="password" id="pass" placeholder="Password" required>
+            <input type="password" id="pass__signup" placeholder="Password" required>
         </div>
-        <h6>Vous avez déja un compte?<a href="">Connectez-vous</a></h6>
+        <h6 class="signn__up">Vous avez déja un compte?<a href="">Connectez-vous</a></h6>
         <div>
-        <button type="submit" class="connect">Se connecter</button>
+        <button id="but_signup" type="submit" class="connect">Se connecter</button>
         </div>
       </form>
 </body>
